@@ -1,5 +1,4 @@
 // Primitive
-
 // 7types : String , Number , Boolean , null , undefined , Symbol , BigInt
 
 
@@ -35,3 +34,27 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction)
+
+/********************************************************************************** */
+//Stack(Primitive), Heap(Non-Proimitive)
+
+let myYoutubeName="saidotcom"
+
+let anotherName="Krishna"
+anotherName="krishdotcom"
+
+console.log(myYoutubeName)
+console.log(anotherName)
+
+
+let UserOne={
+    email:"sai@com",
+    upi:"7406axis",
+}
+
+let UserTwo = UserOne
+
+UserTwo.email="krish@com"
+
+console.log(UserOne.email)
+console.log(UserTwo.email)
