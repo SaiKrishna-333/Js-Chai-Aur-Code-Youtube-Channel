@@ -41,3 +41,19 @@ const myn1 = myArray3.slice(1,3)
 console.log(myn1)
 
 console.log("B ",myArray3);
+
+myArray3.push(6)
+console.log(myArray3)
+myArray3.push(7)
+console.log(myArray3)
+myArray3.push(9)
+console.log(myArray3)
+myArray3.pop()
+console.log(myArray3)
+
+console.log("A ",myArray3);
+
+const myn2 = myArray3.splice(1,3)
+console.log(myn2)
+
+console.log("B ",myArray3);
