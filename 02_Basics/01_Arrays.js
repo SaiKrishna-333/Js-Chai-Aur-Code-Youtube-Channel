@@ -1,26 +1,26 @@
 //Arrays
 
 const myArray = [0,1,2,3,4]
-console.log(myArray)
-console.log(myArray[0])
+// console.log(myArray)
+// console.log(myArray[0])
 
 const myHeros = ["shaktiman","nagraj"]
-console.log(myHeros)
-console.log(myHeros[0])
+// console.log(myHeros)
+// console.log(myHeros[0])
 
 const myArray2 = new Array(1,2,3)
-console.log(myArray2)
-console.log(myArray2[0])
+// console.log(myArray2)
+// console.log(myArray2[0])
 
 const myArray3 = new Array()
-myArray3.push(6)
-console.log(myArray3)
-myArray3.push(7)
-console.log(myArray3)
-myArray3.push(9)
-console.log(myArray3)
-myArray3.pop()
-console.log(myArray3)
+// myArray3.push(6)
+// console.log(myArray3)
+// myArray3.push(7)
+// console.log(myArray3)
+// myArray3.push(9)
+// console.log(myArray3)
+// myArray3.pop()
+// console.log(myArray3)
 
 myArray3.unshift(10)
 console.log(myArray3)
