@@ -51,4 +51,38 @@ users[1].email
 // console.log(Object.values(tinderUser))
 // console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+/****************************************************************************************************/
+
+const course = {
+    coursename: "DS Alo with Krish",
+    price: 99,
+    courseInstructor: "Sai"
+}
+
+const {courseInstructor: instructor} = course
+// console.log(instructor);
+
+
+/*const navbar = ({company}) => {
+
+}
+navbar(company="Sai")*/
+
+
+
+
+
+// {
+//     name:"Sai",
+//     coursename: "DSAlgo",
+//     price: "free"
+// }
+
+
+[
+    {},
+    {},
+    {}
+]
